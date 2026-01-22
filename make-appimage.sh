@@ -16,8 +16,7 @@ export DEPLOY_PIPEWIRE=1
 # Deploy dependencies
 quick-sharun /usr/bin/supertux* \
              /usr/share/games/supertux* \
-             /usr/share/pixmaps/supertux* \
-             /usr/lib/libdecor*.so*
+             /usr/share/pixmaps/supertux*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
